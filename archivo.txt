@@ -1,0 +1,2 @@
+esto es una prueba
+hoy estudiamos python y manejo de archivos
