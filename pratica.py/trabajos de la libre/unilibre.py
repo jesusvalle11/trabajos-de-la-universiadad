@@ -1,6 +1,7 @@
 import random
+
 def generar_numero():
-    return random.randint(1,100)
+    return random.randint(1, 10)  # genera un número aleatorio entre 1 y 10
 
 def jugar():
     intentos=3
@@ -21,17 +22,3 @@ def jugar():
         if intentos==0 and x==True:
             print("No te quedan más intentos")
 jugar()
-
-
-import matplotlib.pyplot as plt
-# Datos
-x = [1, 2, 3, 4, 5]
-y = [10, 20, 25, 30, 40]
-# Crear gráfico
-plt.plot(x, y)
-# Etiquetas
-plt.title('Gráfico de líneas')
-plt.xlabel('Eje X')
-plt.ylabel('Eje Y')
-# Mostrar
-plt.show()
